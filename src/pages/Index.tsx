@@ -215,7 +215,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1627556704842-42be9be9054f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="/lovable-uploads/8b3d56ae-ea5b-42bc-8ebb-dd2296a2f420.png"
                 alt="Professional pool technician cleaning a beautiful backyard pool"
                 className="rounded-lg shadow-xl"
               />
