@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -141,7 +140,7 @@ const Index = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-blue-600 transition-colors"
+              className="border-white bg-transparent text-white hover:bg-white hover:text-blue-600 transition-colors"
               onClick={scrollToContact}
             >
               Get Free Quote
