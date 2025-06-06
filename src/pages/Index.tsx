@@ -28,6 +28,13 @@ const Index = () => {
     setFormData({ name: "", email: "", phone: "", service: "", message: "" });
   };
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const services = [
     {
       icon: Waves,
@@ -131,7 +138,12 @@ const Index = () => {
               <Phone className="w-5 h-5 mr-2" />
               Call Now: (760) 555-POOL
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 transition-colors">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-white text-white hover:bg-white hover:text-blue-600 transition-colors"
+              onClick={scrollToContact}
+            >
               Get Free Quote
             </Button>
           </div>
