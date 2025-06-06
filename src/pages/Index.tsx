@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -216,7 +215,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1627556704842-42be9be9054f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                 alt="Professional pool technician cleaning a beautiful backyard pool"
                 className="rounded-lg shadow-xl"
               />
