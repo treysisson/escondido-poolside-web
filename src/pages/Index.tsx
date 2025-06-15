@@ -379,7 +379,7 @@ const Index = () => {
             Professional Pool Service & Repair | Escondido, CA | Serving San Diego County
           </p>
           <p className="text-gray-500 text-sm">
-            © 2024 J Smith Pools. All rights reserved. | Licensed & Insured
+            © 2025 J Smith Pools. All rights reserved. | Licensed & Insured
           </p>
         </div>
       </footer>
