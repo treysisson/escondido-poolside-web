@@ -1,11 +1,17 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
+import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Use relative paths for GitHub Pages
+  base: './',
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
   build: {
-    outDir: 'docs', // Build to docs folder so GitHub Pages can serve it
+    outDir: 'dist', // Changed back to dist to match GitHub Actions
     assetsDir: 'assets',
     emptyOutDir: true,
   },
